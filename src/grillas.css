@@ -105,6 +105,7 @@
   #personal,#grupo,#eventos{
     font-size: 17px;
     margin-top: 22px;
+    margin-left: -6px;
   }
   #contactos{
     font-family: Trebuchet MS;
@@ -119,8 +120,47 @@
  #menu{
   margin-left: 29px;
  }
+ #fotoContacto{
 
-  
+  margin-top: 33px;
+  margin-left: 8px;
+  width: 54px;
+ }
+
+ #nombreContacto{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+  color: #1A83C4;
+  margin-left: 78px;
+  margin-top: -53px;
+ }
+ #hora{
+  font-family: Lato;
+  margin-left: 304px;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  color: #1A83C4;
+  margin-top: -28px;
+ }
+ #info{
+  margin-left: 316px;
+  margin-top: -1px;
+  width: 22px;
+ }
+  #uno{
+    margin-left: -19px;
+    margin-top: 14px;
+    width: 7px;
+  }
+  #linea{
+    margin-top: 8px;
+  }
+  #linea2{
+    margin-top: 43px;
+  }
 
   
   }
