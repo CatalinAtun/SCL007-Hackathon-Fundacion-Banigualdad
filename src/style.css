@@ -1,60 +1,55 @@
-header{
-    background-color: #1A83C4;
-}
-
-.menu{
-    color: white;
-}
-.name{
+#root{
     text-align: center;
+    color: #555555;
+    font-family: Lato;
+}
+
+#email, #password{
+    margin: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    opacity: 0.6;/* Primary Color */
+    border: 1.5px solid #1A83C4;
+    box-sizing: border-box;/* Drop Shadow Normal */
+    box-shadow: 0px 8px 20px rgba(135, 139, 140, 0.2);
+    border-radius: 6px;
+    width: 240px;
+}
+
+#login{
+    background: #6FD454;
+    /* Drop Shadow Focus */
+    box-shadow: 0px 8px 15px rgba(135, 139, 140, 0.15);
+    border-radius: 6px;
     color: white;
+    width: 240px;
+    height: 40px;
 }
 
-.back, .add, .image, .archivo, .arrowRight{
-    width: 20px;
-    height: 20px;
+.loginButton{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px
 }
 
-.arrowRight{
-    text-align: left;
+h4{ /* iniciar sesión */
+    margin: 0px;
+    padding: 15px;
 }
 
-.image, .archivo{
-    margin-right: 10px;
-    margin-left: 10px
+.logo{
+    padding: 35px;
+    margin: 0px
 }
 
-footer {
-    background-color: white
+.TyCText{
+    font-size:  14px;
+    line-height: 21px;
 }
 
-.firstMessage, .secondMessage{
-    border-radius: 5px;
-    width: 250px;
-    margin: 20px;
-}
-
-.firstMessage{
-    border: 2px solid rgb(235, 240, 240);
-    background-color: rgb(235, 240, 240);
-}
-
-.secondMessage{
-    border: 2px solid white;
-    background-color: white;
-    margin: right;
-}
-
-.pMessage{
-    margin: 10px
-}
-
-input{
-    border-radius: 5px;
-    width: 200px;
-}
-
-body{
-    background-color: whitesmoke
-
-}
